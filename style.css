@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html{
+    background-color: rgb(169, 0, 0);
+}
+
+.main{   
+    position: absolute;
+    background:linear-gradient(80deg, rgb(32, 32, 32) , rgb(160, 0, 0) ) ;
+    box-shadow: 0 6px 10px 0 rgba(21, 19, 19, 0.549), 0 6px 20px 0 rgba(0, 0, 0, 0.41);
+    width: 80%;
+    height: 500px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    margin-left: 140px ;
+    margin-top: 30px ;
+    border-radius: 12px 12px;  
+}
+.nav1{
+    position: absolute;
+    margin-top: -210px;
+    margin-left: 480px;
+}
+#logo{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    margin-left: -480px;
+    margin-top: -17px;
+}
+.nav1 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 19px;
+    padding: 16px;
+
+ }
+
+.nav1 a:hover{
+    color: rgb(255, 0, 0);
+}
+
+#log{
+    position: absolute;
+    width: 220px;
+    height: 300px;
+    background:linear-gradient(80deg, rgba(82, 82, 82, 0.197) , rgba(160, 0, 0, 0.148) ) ;
+    border-radius: 10px;
+    margin-left: 340px;
+    margin-top: 40px;    
+}
+
+#gmail{
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  border-bottom: 1px red solid;
+  outline: none;
+  height: 20px;
+  margin-top: 60px;
+  margin-left: 28px;
+  color: white;
+  
+}
+
+
+#pass{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px red solid;
+    outline: none;
+    height: 20px;
+    margin-left: 28px;
+    margin-top: 30px;
+    color: white;
+
+}
+
+#signup{
+    background-color: rgb(244, 0, 0);
+    border: none;
+    height: 20px;
+   width:90px;
+   border-radius: 6px;
+   font-weight: bold;
+   color: white;
+   margin-left: 60px;
+   margin-top: 60px ;
+
+}
+
+h1{
+    position: absolute;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+h3{
+    color: aliceblue;
+    font-size: 14px;
+    margin-top: 26px;
+    margin-left: 42px;
+}
+#login{
+    position: absolute;
+    color: rgb(255, 0, 0);
+    margin-top: -18px;
+    margin-left: 150px;
+}
+
+
